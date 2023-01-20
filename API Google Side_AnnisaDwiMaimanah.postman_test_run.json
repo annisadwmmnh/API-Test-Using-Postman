@@ -1,0 +1,304 @@
+{
+	"id": "a069eaed-dea5-4522-a879-a42c34b1fa0b",
+	"name": "API Google Side_AnnisaDwiMaimanah",
+	"timestamp": "2022-08-24T16:05:05.904Z",
+	"collection_id": "22620474-4d440162-fe94-48a0-9851-50897822abaf",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "72993dcc-0548-4445-aa8a-631a2cf68509",
+			"name": "POST REGISTER",
+			"url": "https://staging-eta.herokuapp.com/auth/v1/register",
+			"time": 19551,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				19551
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bd047e28-4f02-4969-8e25-b7b8f36e17ce",
+			"name": "POST LOGIN",
+			"url": "https://staging-eta.herokuapp.com/auth/v1/login",
+			"time": 394,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				394
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "65e7b957-b7f2-4971-8b25-4438c806a522",
+			"name": "POST FORGOT PASSWORD",
+			"url": "https://staging-eta.herokuapp.com/auth/v1/forgot",
+			"time": 302,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				302
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b1c072a3-5e6e-47b4-80ec-4bd08dd29e27",
+			"name": "POST CHANGE PASSWORD",
+			"url": "https://staging-eta.herokuapp.com/auth/v1/change",
+			"time": 299,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				299
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5876d212-bb75-4799-aa52-64dcc923c3b3",
+			"name": "GET DASHBOARD",
+			"url": "https://staging-eta.herokuapp.com/api/v1/dashboard?employeeid=12",
+			"time": 397,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				397
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a0a97b6d-72b6-4951-96c7-4f41c46766da",
+			"name": "GET DASHBOARD DIREKTUR",
+			"url": "https://staging-eta.herokuapp.com/api/v1/dashboard/direktur?employeeid=1",
+			"time": 377,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				377
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "30e0e9ed-c477-44c0-9273-fb56a8d23a93",
+			"name": "GET ALL GRADE",
+			"url": "https://staging-eta.herokuapp.com/api/v1/grades",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				297
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c537f6ee-6999-4a8e-8d22-6dff19c3c03f",
+			"name": "GET ALL GRADE BY LEVEL",
+			"url": "https://staging-eta.herokuapp.com/api/v1/grades/level?levelid=4",
+			"time": 267,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				267
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "419812ac-e910-402b-a072-9208a88eb33d",
+			"name": "GET EMPLOYEES",
+			"url": "https://staging-eta.herokuapp.com/api/v1/employees",
+			"time": 1991,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1991
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "08bb1cd3-e850-4bc3-8edd-00c66f668232",
+			"name": "POST CREATE EMPLOYEES",
+			"url": "https://staging-eta.herokuapp.com/api/v1/employees",
+			"time": 325,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				325
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "53cfe6c4-9155-443b-8f01-fbe5b1af00d4",
+			"name": "GET DETAIL EMPLOYEES",
+			"url": "https://staging-eta.herokuapp.com/api/v1/employees/12",
+			"time": 300,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				300
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7db42af4-4732-48bc-9a40-3c915526860e",
+			"name": "PUT UPDATE EMPLOYEES",
+			"url": "https://staging-eta.herokuapp.com/api/v1/employees/3",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				284
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d250b7e6-9014-45b8-a721-5e1a26c7f7c2",
+			"name": "DELETE EMPLOYEES",
+			"url": "https://staging-eta.herokuapp.com/api/v1/employees/3",
+			"time": 293,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				293
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 25077,
+	"collection": {
+		"requests": [
+			{
+				"id": "72993dcc-0548-4445-aa8a-631a2cf68509",
+				"method": "POST"
+			},
+			{
+				"id": "bd047e28-4f02-4969-8e25-b7b8f36e17ce",
+				"method": "POST"
+			},
+			{
+				"id": "65e7b957-b7f2-4971-8b25-4438c806a522",
+				"method": "POST"
+			},
+			{
+				"id": "b1c072a3-5e6e-47b4-80ec-4bd08dd29e27",
+				"method": "POST"
+			},
+			{
+				"id": "5876d212-bb75-4799-aa52-64dcc923c3b3",
+				"method": "GET"
+			},
+			{
+				"id": "a0a97b6d-72b6-4951-96c7-4f41c46766da",
+				"method": "GET"
+			},
+			{
+				"id": "30e0e9ed-c477-44c0-9273-fb56a8d23a93",
+				"method": "GET"
+			},
+			{
+				"id": "c537f6ee-6999-4a8e-8d22-6dff19c3c03f",
+				"method": "GET"
+			},
+			{
+				"id": "419812ac-e910-402b-a072-9208a88eb33d",
+				"method": "GET"
+			},
+			{
+				"id": "08bb1cd3-e850-4bc3-8edd-00c66f668232",
+				"method": "POST"
+			},
+			{
+				"id": "53cfe6c4-9155-443b-8f01-fbe5b1af00d4",
+				"method": "GET"
+			},
+			{
+				"id": "7db42af4-4732-48bc-9a40-3c915526860e",
+				"method": "PUT"
+			},
+			{
+				"id": "d250b7e6-9014-45b8-a721-5e1a26c7f7c2",
+				"method": "DELETE"
+			}
+		]
+	}
+}
